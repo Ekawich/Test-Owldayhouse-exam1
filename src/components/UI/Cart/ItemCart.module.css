@@ -1,0 +1,25 @@
+.cartBoxImage {
+	width: 30%;
+	padding: 0.5rem;
+	height: auto;
+}
+
+.cartProductImage {
+	width: 100%;
+	height: 100%;
+}
+
+.cartContent {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.cartItemTitle {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+	height: 73px;
+}

@@ -1,0 +1,29 @@
+.boxImage {
+	height: 500px;
+	padding: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.productImage {
+	width: 100%;
+	height: auto;
+}
+
+.titleLimit {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	height: 64px;
+}
+
+.descLimit {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+	height: 55px;
+}
