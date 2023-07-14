@@ -31,7 +31,7 @@ const Navbars = () => {
 						</Typography>
 						<Stack spacing={2} direction="row" sx={{ mr: 2 }}>
 							<IconButton aria-label="ShoppingCart" size="large" onClick={toggleCart}>
-								<Badge badgeContent={totalQuantity} color="primary">
+								<Badge badgeContent={totalQuantity} color="secondary">
 									<ShoppingCartIcon />
 								</Badge>
 							</IconButton>

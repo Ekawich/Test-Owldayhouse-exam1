@@ -33,7 +33,7 @@ const Categories = (props) => {
 							<Skeleton width={70} height={30} key={idx} />
 						))}
 					</Stack>
-					<Skeleton width={200} height={40} />
+					<Skeleton width={200} height={40} sx={{ display: { sm: "none", xs: "block" } }} />
 				</Box>
 			)}
 		</>
